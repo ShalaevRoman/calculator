@@ -1,5 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(circle, skyblue, steelblue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body input {
+    border-radius: 5px;
+    margin: 5px;
+}
+
+body p {
+    padding: 10px;
+    font-weight: bold;
+}
+
 form {
     width: 80%;
-    margin: 20px auto;
+    margin: 0 auto;
     text-align: center;
+}
+
+form button {
+    width: 100px;
+    background-color: gray;
+    margin: 10px auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.button-wrapper button {
+    width: 20px;
 }
